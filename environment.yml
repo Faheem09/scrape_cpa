@@ -1,0 +1,19 @@
+# Updated by: Faheem Faheem
+# Updated on: 2024-07-26
+# command to create new conda from an environment.yml file
+# conda env create -f requirements.yml 
+
+# To update an existing conda environment with a updated environment.yml file, run the following command
+# conda env update --cpa_scrape --file environment.yml --prune
+
+name: cpa_scrape
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - beautifulsoup4
+  - pandas
+  - pip
+  - pip:
+    - requests
+
