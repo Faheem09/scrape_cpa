@@ -8,6 +8,6 @@ A Python project to scrape CPA exam pass rates by university from Farhat Lecture
 - Organized data storage in a designated folder
 
 ## Installation
-1. Create a conda requirement using the provided `environment.yml` file:
+1. Create a conda environment using the provided `environment.yml` file:
    ```bash
-   conda env create -f requirement.yml
+   conda env create -f environment.yml
